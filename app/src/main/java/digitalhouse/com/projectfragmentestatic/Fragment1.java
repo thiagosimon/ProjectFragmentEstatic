@@ -30,7 +30,7 @@ public class Fragment1 extends Fragment {
         btnFrag1.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
-                Toast.makeText(getActivity().getBaseContext(),"Voce esta no Fragmento",Toast.LENGTH_LONG).show();
+                Toast.makeText(getActivity().getBaseContext(),"Voce esta no Fragmento 1",Toast.LENGTH_LONG).show();
             }
         });
         return view;

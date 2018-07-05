@@ -2,14 +2,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:background="@android:drawable/btn_star_big_on"
-    tools:context=".Fragment2">
+    tools:context=".Fragment3"
+    android:background="@color/colorPrimaryDark">
 
 
     <Button
-        android:id="@+id/btn_frag2"
+        android:id="@+id/btn_frag3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:text="Botao Fragmento 2" />
+        android:text="Botao Fragmento 3" />
 </RelativeLayout>
